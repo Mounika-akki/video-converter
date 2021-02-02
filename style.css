@@ -1,0 +1,70 @@
+.container {
+ margin-top: 20px;
+ padding: 30px;
+ border: 1px solid rgb(41, 179, 197);
+ box-shadow: 1px 3px 5px 5px rgb(100, 105, 107);
+ height: 400px;
+}
+
+.selectbtn {
+ background-color: rgb(44, 71, 121);
+ color: white;
+ text-align: center;
+}
+
+ul {
+ list-style-type: none;
+}
+
+.right-div {
+ margin: 20px auto;
+}
+
+h2 {
+ font-family: sans-serif, monospace;
+ color: rgb(4, 95, 72);
+ margin-top: 40px;
+}
+
+h4 {
+ background-color: rgb(38, 77, 71);
+ color: white;
+}
+
+.left-subdiv {
+ padding: 5px;
+ margin: 10px;
+ color: rgb(38, 77, 71);
+ background-color: rgb(235, 235, 235);
+ border: 1px rgb(87, 86, 86);
+ border-radius: 10px;
+}
+
+.steps-div {
+ text-align: center;
+ margin: 10px auto;
+}
+
+.howToConvertDiv {
+ margin-top: 10%;
+ float: left;
+}
+
+.steps {
+ float: right;
+}
+
+#convert {
+ color: rgb(250, 253, 255);
+ background-color: rgb(35, 107, 155);
+ font-size: 1.5rem;
+}
+
+.nameDisplay {
+ margin-top: 10px;
+ color: rgb(146, 1, 1);
+}
+
+#info {
+ height: 30px;
+}

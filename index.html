@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+
+
+    <title>Video Converter App</title>
+  </head>
+
+  <body>
+    <div class="container-fluid">
+  <div class="row content">
+        <div class="col">
+          <h2 class="text-center">Video Format Converter [ MP4 to HLS ]</h2>
+          <div class="container">
+            <div class="right-div text-center">
+              <button class="btn selectbtn " id="uploadFolder">Select Empty Folder</button>
+              <div id="folderName" class="nameDisplay"></div>
+              <br /><br />
+              <button class="btn selectbtn" id="uploadFile">Select file</button>
+              <div id="fileName" class="nameDisplay"></div>
+              <br /><br />
+              <button class="btn btn-block btn-primary" id="convert">Convert</button>
+            </div>
+            <div id="info"></div>
+        </div>
+        <div class=" col sidenav steps-div">
+          <div class="howToConvertDiv col-sm-4">
+           <h4>How To Convert : </h4>
+          </div>
+          <div class="steps col-sm-8">
+           <ul>
+            <li class="left-subdiv">Step 1 :- Select an Empty folder.</li>
+            <li class="left-subdiv">Step 2 :- Select an .mp4 file</li>
+            <li class="left-subdiv">Step 3 :- Click on Convert</li>
+            <li class="left-subdiv">Step 4 :- Find converted HSL video file in previously selected empty folder.</li>
+
+          </ul>
+          </div>
+        </div>
+    <script src="render.js"></script>
+      
+        
+      </div>
+    </div>
+  </div>
+</div>
+</body>
+</html>
+  </body>
+</html>
